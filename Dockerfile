@@ -14,4 +14,4 @@ RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
  && chmod -R g+rwX /etc/v2ray
  RUN chmod +x /root/xf.sh
  ENTRYPOINT ["sh", "/root/xf.sh"]
- EXPOSE 80
+ EXPOSE 8080
